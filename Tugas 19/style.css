@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  width: 80%;
+  flex-flow: row wrap-reverse;
+  justify-content: space-between;
+}
+
+.container .box1 {
+  width: 200px;
+  padding: 30px;
+  background-color: aquamarine;
+  text-align: center;
+  order: 9;
+}
+
+.container .box2 {
+  width: 200px;
+  padding: 30px;
+  background-color: rgb(163, 245, 163);
+  text-align: center;
+}
+
+.container .box3 {
+  width: 200px;
+  padding: 30px;
+  background-color: rgb(33, 159, 233);
+  text-align: center;
+}
+
+.container .box4 {
+  width: 200px;
+  padding: 30px;
+  background-color: rgb(216, 48, 216);
+  text-align: center;
+}
+
+.container .box5 {
+  width: 200px;
+  padding: 30px;
+  background-color: rgb(43, 61, 117);
+  text-align: center;
+}
+
+.container .box6 {
+  width: 200px;
+  padding: 30px;
+  background-color: yellow;
+  text-align: center;
+}
+
+.container .box7 {
+  width: 200px;
+  padding: 30px;
+  background-color: orange;
+  text-align: center;
+  order: -1;
+}
+
+.container .box8 {
+  width: 200px;
+  padding: 30px;
+  background-color: rgb(245, 45, 45);
+  text-align: center;
+}
+
+.container .box9 {
+  width: 200px;
+  padding: 30px;
+  background-color: rgb(230, 220, 220);
+  text-align: center;
+}
+
+.container .box10 {
+  width: 200px;
+  padding: 30px;
+  background-color: rgb(100, 94, 94);
+  text-align: center;
+}
